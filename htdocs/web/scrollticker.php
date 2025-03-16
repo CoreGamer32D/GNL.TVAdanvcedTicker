@@ -47,7 +47,7 @@ if ($status != "OK") {
     for ($i = 0; $i < $size; $i++) {
         $standings = getStandings($i);
         $content .= '<span class="position">'.($i + 1).'</span>';
-        $content .= '<span class="number">'.trim($standings['number']).'</span>';
+        $content .= '<span class="number"><img src="images/numbers/'.trim($standings['number']).'.gif"</span>';
         $content .= '<span class="name">'.$standings['name'].'</span>';
         $content .= '<span class="time">'.getDriverTime($standings, $i).'</span>';
     }
