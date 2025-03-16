@@ -1,0 +1,702 @@
+     ** create folder: C:\Program Files (x86)\mozilla.org
+     ** create folder: C:\Program Files (x86)\mozilla.org\Mozilla
+     ** copy file: C:\Users\nesma\AppData\Local\Temp\ns_temp\install_wizard.log to C:\Program Files (x86)\mozilla.org\Mozilla\install_wizard.log
+     ** copy file: C:\Users\nesma\AppData\Local\Temp\ns_temp\install_status.log to C:\Program Files (x86)\mozilla.org\Mozilla\install_status.log
+     ** create registry key: HKEY_CURRENT_USER\Software\mozilla.org\Mozilla\1.0 (en)\Setup []
+     ** store registry value string: HKEY_CURRENT_USER\Software\mozilla.org\Mozilla\1.0 (en)\Setup [Setup State]
+     ** create folder: C:\Program Files (x86)\mozilla.org\Mozilla\Plugins
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\mozilla.org []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\mozilla.org []
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\mozilla.org\Mozilla []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\mozilla.org\Mozilla []
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\mozilla.org\Mozilla\1.0 (en) []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\mozilla.org\Mozilla\1.0 (en) []
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\mozilla.org\Mozilla\1.0 (en)\Main []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\mozilla.org\Mozilla\1.0 (en)\Main [Program Folder Path]
+     ** store registry value string: HKEY_CURRENT_USER\Software\mozilla.org []
+     ** store registry value string: HKEY_CURRENT_USER\Software\mozilla.org\Mozilla []
+     ** store registry value string: HKEY_CURRENT_USER\Software\mozilla.org\Mozilla\1.0 (en) []
+     ** create registry key: HKEY_CURRENT_USER\Software\mozilla.org\Mozilla\1.0 (en)\Main []
+     ** store registry value string: HKEY_CURRENT_USER\Software\mozilla.org\Mozilla\1.0 (en)\Main [Program Folder Path]
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Mozilla []
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\Mozilla\Seamonkey []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Mozilla\Seamonkey [CurrentVersion]
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\Mozilla\Seamonkey\1.0 (en) []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Mozilla\Seamonkey\1.0 (en) []
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\Mozilla\Seamonkey\1.0 (en)\Main []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Mozilla\Seamonkey\1.0 (en)\Main [Program Folder Path]
+     ** create folder: C:\Program Files (x86)\mozilla.org\Mozilla\uninstall
+-------------------------------------------------------------------------------
+file:///C|/Users/nesma/AppData/Local/Temp/ns_temp/xpcom.xpi  --  09/03/2020 02:24:22
+-------------------------------------------------------------------------------
+
+     Mozilla XPCOM (version 1.0.0.2002082608)
+     -------------
+
+     ** initInstall: 0
+     ** fProgram: C:\Program Files (x86)\mozilla.org\Mozilla\
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\component.reg
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\component.reg\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\xpti.dat\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\xptitemp.dat\
+     ** addDirectory() of Program returned: 0
+     ** fileExists() returned: 1
+     ** File found: C:\WINDOWS\SYSTEM32\msvcrt.dll
+     ** fileExists() returned: 1
+     ** File found: C:\WINDOWS\SYSTEM32\msvcirt.dll
+     ** winreg.isKeyWritable(): function
+     ** restrictedAccess value: false
+     [1/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\mozreg.dll
+     [2/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\xpcom.dll
+     [3/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\zlib.dll
+     [4/30]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\components
+     [5/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\jar50.dll
+     [6/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\js3250.dll
+     [7/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\plc4.dll
+     [8/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\plds4.dll
+     [9/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\xpinstal.dll
+     [10/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\xpistub.dll
+     [11/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\nspr4.dll
+     [12/30]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\ucharuti.dll
+     [13/30]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org []
+     [14/30]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla []
+     [15/30]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla [CurrentVersion]
+     [16/30]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en) []
+     [17/30]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main []
+     [18/30]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main [Install Directory]
+     [19/30]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Uninstall []
+     [20/30]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Uninstall [Uninstall Log Folder]
+     [21/30]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Uninstall [Description]
+     [22/30]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org []
+     [23/30]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla []
+     [24/30]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla [CurrentVersion]
+     [25/30]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en) []
+     [26/30]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main []
+     [27/30]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main [Install Directory]
+     [28/30]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Uninstall []
+     [29/30]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Uninstall [Uninstall Log Folder]
+     [30/30]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Uninstall [Description]
+     ** performInstall() returned: 0
+
+     Install completed successfully  --  09/03/2020 02:24:22
+
+-------------------------------------------------------------------------------
+file:///C|/Users/nesma/AppData/Local/Temp/ns_temp/browser.xpi  --  09/03/2020 02:24:22
+-------------------------------------------------------------------------------
+
+     Mozilla (version 1.0.0.2002082608)
+     -------
+
+     ** initInstall: 0
+     ** fProgram: C:\Program Files (x86)\mozilla.org\Mozilla\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\oji.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\jsdom.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\img3250.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\gkgfxwin.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\gkwidget.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\psm-glue.js\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\wallet\URLFieldSchema.tbl\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\gkhtml.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\mozucth.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsgif.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsjpg.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsmng.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\nspng.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\smime.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\AcctIdl.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\chardetc.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\evntloop.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\nativapp.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\universalchardet.dll\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\chrome.rdf\
+     ** folder to delete: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\
+     ** addDirectory() of Program returned: 0
+     ** windowsRegisterServer() returned: 0
+     ** windowsRegisterServer() returned: 0
+     ** winreg.isKeyWritable(): function
+     ** restrictedAccess value: false
+     ** szCurrentVersion: 6.3
+     ** is_winnt value: true
+     ** folderQuickLaunchExists: true
+     ** Folder StartMenuPrograms: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+     ** Folder StartMenu        : C:\ProgramData\Microsoft\Windows\Start Menu
+     ** Folder FolderDesktop    : C:\Users\Public\Desktop
+     ** Folder FolderSendTo     : C:\Users\nesma\AppData\Roaming\Microsoft\Windows\SendTo
+     ** Folder FolderQuickLaunch: C:\Users\nesma\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch
+     ** fileExe                 : C:\Program Files (x86)\mozilla.org\Mozilla\Mozilla.exe
+     ** fFolderPath             : C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Mozilla\
+     ** scExeDesc               : Mozilla
+     ** fProgram                : C:\Program Files (x86)\mozilla.org\Mozilla\
+     ** store registry value string: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run [Mozilla Quick Launch]
+     ** ERROR (-243): Delete Registry Value: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run [Mozilla Quick Launch]
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\Xpcs Registry.dat
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\xpcom.log
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\components
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\xpti.dat
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\xptitemp.dat
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\installed-chrome.txt
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\chrome.rdf
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\communicator
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\communicator\content
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\communicator\content\overlays.rdf
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\editor
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\editor\content
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\editor\content\overlays.rdf
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\messenger
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\messenger\content
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\messenger\content\overlays.rdf
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\navigator
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\navigator\content
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\navigator\content\overlays.rdf
+     ** Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\navigator\skin
+     ** Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\overlayinfo\navigator\skin\stylesheets.rdf
+     [1/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\caps.dll
+     [2/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\res
+     [3/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber
+     [4/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims17.gif
+     [5/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\defaults
+     [6/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\wallet
+     [7/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\wallet\VcardSchema.tbl
+     [8/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims24.gif
+     [9/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples
+     [10/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\scrollbarTest2.xul
+     [11/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\jpeg3250.dll
+     [12/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsDictionary.js
+     [13/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\ISimpleDOMDocumentMarshal.dll
+     [14/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test9a.html
+     [15/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test8sca.html
+     [16/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\forms.css
+     [17/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\mozctlx.dll
+     [18/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\rock_gra.gif
+     [19/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\oji.dll
+     [20/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\res\html
+     [21/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html\gopher-image.gif
+     [22/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts
+     [23/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts\mathfontCMSY10.properties
+     [24/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html\gopher-menu.gif
+     [25/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims09.gif
+     [26/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\xpmenu.xul
+     [27/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\res\dtd
+     [28/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\dtd\xhtml11.dtd
+     [29/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\res\builtin
+     [30/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\builtin\platformHTMLBindings.xml
+     [31/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\uconv.dll
+     [32/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims16.gif
+     [33/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims23.gif
+     [34/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\xpconnect-sample.html
+     [35/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\scrollbarTest1.xul
+     [36/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\embedcomponents.dll
+     [37/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\tab.xul
+     [38/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\accessibility.dll
+     [39/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\raptor.jpg
+     [40/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref
+     [41/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\config.js
+     [42/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\txmgr.dll
+     [43/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\langGroups.properties
+     [44/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\jsconsole-clhandler.js
+     [45/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\gkgfx.dll
+     [46/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims08.gif
+     [47/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\arrow.gif
+     [48/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\colorpicker.xul
+     [49/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\xpinstall.js
+     [50/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\chrome
+     [51/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\chromelist.txt
+     [52/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims15.gif
+     [53/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\res\rdf
+     [54/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\rdf\loading.gif
+     [55/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\checkboxTest.xul
+     [56/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\gklayout.dll
+     [57/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims22.gif
+     [58/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\license.txt
+     [59/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test15.html
+     [60/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsKillAll.js
+     [61/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\imgjpeg.dll
+     [62/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\Anieyes.gif
+     [63/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\browser.xpt
+     [64/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test8.html
+     [65/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\dexopenchrome.xul
+     [66/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\editor.js
+     [67/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test2.html
+     [68/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\chardet.dll
+     [69/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html\gopher-binary.gif
+     [70/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nslocale.dll
+     [71/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\res\entityTables
+     [72/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\entityTables\html40Symbols.properties
+     [73/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\entityTables\html40Latin1.properties
+     [74/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\imggif.dll
+     [75/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims07.gif
+     [76/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\universalchardet.dll
+     [77/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims14.gif
+     [78/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test.wav
+     [79/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\xppref32.dll
+     [80/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims21.gif
+     [81/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test_gfx.html
+     [82/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\charsetalias.properties
+     [83/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\image_props.html
+     [84/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\composer.dll
+     [85/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\autoconfig
+     [86/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\autoconfig\prefcalls.js
+     [87/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\gkwidget.dll
+     [88/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsSetDefaultBrowser.js
+     [89/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\initpref.js
+     [90/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\wallet\SchemaConcat.tbl
+     [91/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\treeTest1.css
+     [92/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\demoform.css
+     [93/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims06.gif
+     [94/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims13.gif
+     [95/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test_lbox.html
+     [96/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\import-test.html
+     [97/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\wallet\StateSchema.tbl
+     [98/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims20.gif
+     [99/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\gear1.gif
+     [100/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\gkcontent.dll
+     [101/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\ua.css
+     [102/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\ucvtw2.dll
+     [103/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\imgxbm.dll
+     [104/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims05.gif
+     [105/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims12.gif
+     [106/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test14.html
+     [107/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test7.html
+     [108/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test1.html
+     [109/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\plugins\npnul32.dll
+     [110/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\xpc3250.dll
+     [111/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\imgpng.dll
+     [112/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test8tab.html
+     [113/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\all.js
+     [114/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims04.gif
+     [115/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\sliderTest1.xul
+     [116/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\hidetoolicon.xul
+     [117/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\imglib2.dll
+     [118/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims11.gif
+     [119/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html\gopher-unknown.gif
+     [120/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts\mathfontMath4.properties
+     [121/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\broken-image.gif
+     [122/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\cform.css
+     [123/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\language.properties
+     [124/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\gkview.dll
+     [125/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\regviewr.dll
+     [126/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\collapsing.css
+     [127/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\comm.jar
+     [128/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsHelperAppDlg.js
+     [129/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims03.gif
+     [130/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims10.gif
+     [131/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\cookie.dll
+     [132/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\nsldap32v50.dll
+     [133/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\mozilla.exe
+     [134/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\ucvja.dll
+     [135/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims02.gif
+     [136/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\appcomps.dll
+     [137/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\ucvko.dll
+     [138/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test_ed.html
+     [139/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test13.html
+     [140/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test6.html
+     [141/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\loading-image.gif
+     [142/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\mozctl.dll
+     [143/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\wincharset.properties
+     [144/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test0.html
+     [145/380]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\sampleimages
+     [146/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\sampleimages\down.gif
+     [147/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\ucvtw.dll
+     [148/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\printsetup.html
+     [149/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\bform.css
+     [150/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\wallet\PositionalSchema.tbl
+     [151/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsProgressDialog.js
+     [152/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\necko.dll
+     [153/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\find.html
+     [154/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html\gopher-sound.gif
+     [155/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\wallet\FieldSchema.tbl
+     [156/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\gkgfxwin.dll
+     [157/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims01.gif
+     [158/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\mdn.js
+     [159/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsprefm.dll
+     [160/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\beeptest.html
+     [161/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\shistory.dll
+     [162/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\xpicleanup.exe
+     [163/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test8siz.html
+     [164/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\sampleimages\left.gif
+     [165/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\wlltvwrs.dll
+     [166/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\transformiix.dll
+     [167/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\toolbarTest1.xul
+     [168/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\quirk.css
+     [169/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\profile.dll
+     [170/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html\gopher-telnet.gif
+     [171/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\jsj3250.dll
+     [172/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\rdf.dll
+     [173/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims00.gif
+     [174/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\dexparamdialog.xul
+     [175/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\mozldap.dll
+     [176/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\gfx2.dll
+     [177/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\mathml.css
+     [178/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\cmessage.txt
+     [179/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\ucvmath.dll
+     [180/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts\mathfontCMEX10.properties
+     [181/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\smime.js
+     [182/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\modern.jar
+     [183/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\aform.css
+     [184/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\ucvlatin.dll
+     [185/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\strres.dll
+     [186/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\txtsvc.dll
+     [187/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\mork.dll
+     [188/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test12.html
+     [189/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nkcache.dll
+     [190/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test5.html
+     [191/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts\mathfontMath1.properties
+     [192/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\imgppm.dll
+     [193/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\dexparamdialog.html
+     [194/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\jsd3250.dll
+     [195/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsDownloadProgressListener.js
+     [196/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\winpref.js
+     [197/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\webbrwsr.dll
+     [198/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\nsldappr32v50.dll
+     [199/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\xmlextras.dll
+     [200/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsSidebar.js
+     [201/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test8dom.html
+     [202/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anim.gif
+     [203/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\security-prefs.js
+     [204/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\ucvibm.dll
+     [205/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\necko2.dll
+     [206/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\docshell.dll
+     [207/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims29.gif
+     [208/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\widgets.xul
+     [209/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\readme.txt
+     [210/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\mailnews.js
+     [211/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\mozfind.dll
+     [212/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts\fontEncoding.properties
+     [213/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\entityTables\html40Special.properties
+     [214/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\builtin\htmlBindings.xml
+     [215/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts\mathfont.properties
+     [216/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsXmlRpcClient.js
+     [217/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\charsetData.properties
+     [218/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\gkplugin.dll
+     [219/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test_pr.html
+     [220/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\regxpcom.exe
+     [221/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\sampleimages\right.gif
+     [222/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\rdf\document.gif
+     [223/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts\mathfontPUA.properties
+     [224/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims28.gif
+     [225/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\editor.dll
+     [226/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\content-packs.jar
+     [227/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html\gopher-text.gif
+     [228/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts\mathfontSymbol.properties
+     [229/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\xulTest.css
+     [230/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\treeTest1.xul
+     [231/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\hidetoolicon.css
+     [232/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\imgicon.dll
+     [233/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\help.jar
+     [234/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\wallet\SchemaStrings.tbl
+     [235/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\gkparser.dll
+     [236/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html.css
+     [237/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\pref\inspector.js
+     [238/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test11.html
+     [239/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\classic.jar
+     [240/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html\gopher-movie.gif
+     [241/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test4.html
+     [242/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\toolkit.jar
+     [243/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\jsurl.dll
+     [244/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html\gopher-find.gif
+     [245/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims27.gif
+     [246/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\sampleimages\up.gif
+     [247/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\html\gopher-audio.gif
+     [248/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test9b.html
+     [249/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\forms.jar
+     [250/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\mozform.css
+     [251/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\ucvcn.dll
+     [252/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\nsProxyAutoConfig.js
+     [253/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\jsloader.dll
+     [254/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\wallet\DistinguishedSchema.tbl
+     [255/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\chrome.dll
+     [256/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims19.gif
+     [257/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts\mathfontMath2.properties
+     [258/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\rdf\folder-open.gif
+     [259/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\fonts\mathfontMTExtra.properties
+     [260/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims26.gif
+     [261/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\entityTables\htmlEntityVersions.properties
+     [262/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\rdf\folder-closed.gif
+     [263/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\viewsource.css
+     [264/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\dtd\mathml.dtd
+     [265/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\rdf\article.gif
+     [266/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\wallet.dll
+     [267/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\jsdom.dll
+     [268/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\soundtest.html
+     [269/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\lwbrk.dll
+     [270/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\ISimpleDOMNodeMarshal.dll
+     [271/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims18.gif
+     [272/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\throbber\anims25.gif
+     [273/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\collapsing.xul
+     [274/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\sampleimages\bongo.gif
+     [275/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\entityTables\transliterate.properties
+     [276/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\urildr.dll
+     [277/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\autoconfig.dll
+     [278/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test16.html
+     [279/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\appshell.dll
+     [280/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test9.html
+     [281/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test10.html
+     [282/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\bg.jpg
+     [283/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\mozbrwsr.dll
+     [284/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\mozxfer.dll
+     [285/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\imgmng.dll
+     [286/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\res\samples\test3.html
+     [287/380]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\imgbmp.dll
+     [288/380]	Windows Register Server: C:\Program Files (x86)\mozilla.org\Mozilla\ISimpleDOMNodeMarshal.dll
+     [289/380]	Windows Register Server: C:\Program Files (x86)\mozilla.org\Mozilla\ISimpleDOMDocumentMarshal.dll
+     [290/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org []
+     [291/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla []
+     [292/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla [CurrentVersion]
+     [293/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en) []
+     [294/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main []
+     [295/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main [Install Directory]
+     [296/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Mozilla 1.0 []
+     [297/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Mozilla 1.0\Extensions []
+     [298/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Mozilla 1.0\Extensions [Components]
+     [299/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Mozilla 1.0\Extensions [Plugins]
+     [300/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Mozilla 1.0\bin []
+     [301/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Mozilla 1.0\bin [PathToExe]
+     [302/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main [PathToExe]
+     [303/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla []
+     [304/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Seamonkey []
+     [305/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Seamonkey [CurrentVersion]
+     [306/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Seamonkey\1.0 (en) []
+     [307/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Seamonkey\1.0 (en)\Main []
+     [308/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Seamonkey\1.0 (en)\Main [Install Directory]
+     [309/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Mozilla.exe []
+     [310/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Mozilla.exe []
+     [311/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Mozilla.exe [Path]
+     [312/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org []
+     [313/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla []
+     [314/380]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla [CurrentVersion]
+     [315/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en) []
+     [316/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main []
+     [317/380]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main [Install Directory]
+     [318/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Mozilla 1.0 []
+     [319/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Mozilla 1.0\Extensions []
+     [320/380]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Mozilla 1.0\Extensions [Components]
+     [321/380]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Mozilla 1.0\Extensions [Plugins]
+     [322/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Mozilla 1.0\bin []
+     [323/380]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Mozilla 1.0\bin [PathToExe]
+     [324/380]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main [PathToExe]
+     [325/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\Mozilla []
+     [326/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Seamonkey []
+     [327/380]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Seamonkey [CurrentVersion]
+     [328/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Seamonkey\1.0 (en) []
+     [329/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Seamonkey\1.0 (en)\Main []
+     [330/380]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\Mozilla\Seamonkey\1.0 (en)\Main [Install Directory]
+     [331/380]	Create Folder: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Mozilla
+     [332/380]	Windows Shortcut: C:\Users\Public\Desktop\Mozilla
+     [333/380]	Windows Shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Mozilla\Mozilla
+     [334/380]	Windows Shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Mozilla\Profile Manager
+     [335/380]	Windows Shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Mozilla\Readme
+     [336/380]	Windows Shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Mozilla\License
+     [337/380]	Windows Shortcut: C:\Users\nesma\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\Mozilla
+     [338/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org []
+     [339/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla []
+     [340/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla [CurrentVersion]
+     [341/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en) []
+     [342/380]	Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main []
+     [343/380]	Store Registry Value String: HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main [Program Folder Path]
+     [344/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org []
+     [345/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla []
+     [346/380]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla [CurrentVersion]
+     [347/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en) []
+     [348/380]	Create Registry Key: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main []
+     [349/380]	Store Registry Value String: HKEY_CURRENT_USER\SOFTWARE\mozilla.org\Mozilla\1.0 (en)\Main [Program Folder Path]
+     [350/380]	Register Content: jar:resource:/chrome/toolkit.jar!/content/global-platform/
+     [351/380]	Register Content: jar:resource:/chrome/comm.jar!/content/communicator-platform/
+     [352/380]	Register Content: jar:resource:/chrome/comm.jar!/content/navigator-platform/
+     [353/380]	Register Content: jar:resource:/chrome/toolkit.jar!/content/global/
+     [354/380]	Register Content: jar:resource:/chrome/toolkit.jar!/content/global-region/
+     [355/380]	Register Content: jar:resource:/chrome/comm.jar!/content/autoconfig/
+     [356/380]	Register Content: jar:resource:/chrome/comm.jar!/content/cookie/
+     [357/380]	Register Content: jar:resource:/chrome/comm.jar!/content/wallet/
+     [358/380]	Register Content: jar:resource:/chrome/content-packs.jar!/content/content-packs/
+     [359/380]	Register Content: jar:resource:/chrome/comm.jar!/content/communicator/
+     [360/380]	Register Content: jar:resource:/chrome/comm.jar!/content/communicator-region/
+     [361/380]	Register Content: jar:resource:/chrome/comm.jar!/content/editor/
+     [362/380]	Register Content: jar:resource:/chrome/comm.jar!/content/editor-region/
+     [363/380]	Register Content: jar:resource:/chrome/comm.jar!/content/navigator/
+     [364/380]	Register Content: jar:resource:/chrome/comm.jar!/content/navigator-region/
+     [365/380]	Register Content: jar:resource:/chrome/comm.jar!/content/necko/
+     [366/380]	Register Content: jar:resource:/chrome/comm.jar!/content/mozldap/
+     [367/380]	Register Content: jar:resource:/chrome/forms.jar!/content/forms/
+     [368/380]	Register Skin: jar:resource:/chrome/forms.jar!/skin/classic/forms/
+     [369/380]	Register Skin: jar:resource:/chrome/classic.jar!/skin/classic/communicator/
+     [370/380]	Register Skin: jar:resource:/chrome/classic.jar!/skin/classic/editor/
+     [371/380]	Register Skin: jar:resource:/chrome/classic.jar!/skin/classic/global/
+     [372/380]	Register Skin: jar:resource:/chrome/classic.jar!/skin/classic/messenger/
+     [373/380]	Register Skin: jar:resource:/chrome/classic.jar!/skin/classic/navigator/
+     [374/380]	Register Skin: jar:resource:/chrome/modern.jar!/skin/modern/communicator/
+     [375/380]	Register Skin: jar:resource:/chrome/modern.jar!/skin/modern/editor/
+     [376/380]	Register Skin: jar:resource:/chrome/modern.jar!/skin/modern/global/
+     [377/380]	Register Skin: jar:resource:/chrome/modern.jar!/skin/modern/messenger/
+     [378/380]	Register Skin: jar:resource:/chrome/modern.jar!/skin/modern/navigator/
+     [379/380]	Register Content: jar:resource:/chrome/help.jar!/content/help/
+     [380/380]	Register Content: jar:resource:/chrome/comm.jar!/content/xbl-marquee/
+     ** performInstall() returned: 0
+
+     Install completed successfully  --  09/03/2020 02:24:23
+
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Mozilla.exe []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Mozilla.exe []
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Mozilla.exe\DefaultIcon []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Mozilla.exe\DefaultIcon []
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Mozilla.exe\shell []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Mozilla.exe\shell []
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Mozilla.exe\shell\open []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Mozilla.exe\shell\open []
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Mozilla.exe\shell\open\command []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Mozilla.exe\shell\open\command []
+-------------------------------------------------------------------------------
+file:///C|/Users/nesma/AppData/Local/Temp/ns_temp/psm.xpi  --  09/03/2020 02:24:24
+-------------------------------------------------------------------------------
+
+     Personal Security Manager (version 1.0.0.2002082608)
+     -------------------------
+
+     ** initInstall: 0
+     ** fProgram: C:\Program Files (x86)\mozilla.org\Mozilla\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\psm.exe\
+     ** File to delete: C:\Program Files (x86)\mozilla.org\Mozilla\components\psmglue.dll\
+     ** addDirectory() returned: 0
+     [1/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\pipnss.jar
+     [2/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\nss3.dll
+     [3/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\pippki.dll
+     [4/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\pippki.jar
+     [5/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\psm.xpt
+     [6/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\nssckbi.dll
+     [7/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\ssl3.dll
+     [8/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\smime3.dll
+     [9/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\pipnss.dll
+     [10/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\pipboot.dll
+     [11/13]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\softokn3.dll
+     [12/13]	Register Content: jar:resource:/chrome/pippki.jar!/content/pippki/
+     [13/13]	Register Content: jar:resource:/chrome/pipnss.jar!/content/pipnss/
+     ** performInstall() returned: 0
+
+     Install completed successfully  --  09/03/2020 02:24:24
+
+-------------------------------------------------------------------------------
+file:///C|/Users/nesma/AppData/Local/Temp/ns_temp/venkman.xpi  --  09/03/2020 02:24:24
+-------------------------------------------------------------------------------
+
+     JavaScript Debugger (version 1.0.0.2002082608)
+     -------------------
+
+     ** initInstall: 0
+     [1/5]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\components\venkman-service.js
+     [2/5]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\venkman.jar
+     [3/5]	Register Package: jar:resource:/chrome/venkman.jar!/content/venkman/
+     [4/5]	Register Skin: jar:resource:/chrome/venkman.jar!/skin/modern/venkman/
+     [5/5]	Register Locale: jar:resource:/chrome/venkman.jar!/locale/en-US/venkman/
+
+     Install completed successfully  --  09/03/2020 02:24:24
+
+-------------------------------------------------------------------------------
+file:///C|/Users/nesma/AppData/Local/Temp/ns_temp/deflenus.xpi  --  09/03/2020 02:24:24
+-------------------------------------------------------------------------------
+
+     US English profile default (version 1.0.0.2002082608)
+     --------------------------
+
+     ** initInstall: 0
+     ** fProgram: C:\Program Files (x86)\mozilla.org\Mozilla\
+     ** addDirectory() returned: 0
+     [1/6]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile
+     [2/6]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\mimeTypes.rdf
+     [3/6]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\search.rdf
+     [4/6]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\panels.rdf
+     [5/6]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\bookmarks.html
+     [6/6]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\localstore.rdf
+     ** performInstall() returned: 0
+
+     Install completed successfully  --  09/03/2020 02:24:24
+
+-------------------------------------------------------------------------------
+file:///C|/Users/nesma/AppData/Local/Temp/ns_temp/langenus.xpi  --  09/03/2020 02:24:24
+-------------------------------------------------------------------------------
+
+     ** initInstall: platformNode=win
+     English (US) Language Pack (version 1.0.0.2002082608)
+     --------------------------
+
+     ** initInstall: 0
+     ** fProgram: C:\Program Files (x86)\mozilla.org\Mozilla\
+     ** addDirectory() returned: 0
+     [1/24]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\en-win.jar
+     [2/24]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\en-unix.jar
+     [3/24]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\en-mac.jar
+     [4/24]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\en-US.jar
+     [5/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/global/
+     [6/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/communicator/
+     [7/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/messenger/
+     [8/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/messenger-smime/
+     [9/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/editor/
+     [10/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/navigator/
+     [11/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/necko/
+     [12/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/mozldap/
+     [13/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/autoconfig/
+     [14/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/cookie/
+     [15/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/wallet/
+     [16/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/content-packs/
+     [17/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/help/
+     [18/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/pippki/
+     [19/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/pipnss/
+     [20/24]	Register Locale: jar:resource:/chrome/en-US.jar!/locale/en-US/forms/
+     [21/24]	Register Locale: jar:resource:/chrome/en-win.jar!/locale/en-US/global-platform/
+     [22/24]	Register Locale: jar:resource:/chrome/en-win.jar!/locale/en-US/communicator-platform/
+     [23/24]	Register Locale: jar:resource:/chrome/en-win.jar!/locale/en-US/navigator-platform/
+     [24/24]	Register Locale: jar:resource:/chrome/en-win.jar!/locale/en-US/messenger-mapi/
+     ** performInstall() returned: 0
+
+     Install completed successfully  --  09/03/2020 02:24:24
+
+-------------------------------------------------------------------------------
+file:///C|/Users/nesma/AppData/Local/Temp/ns_temp/regus.xpi  --  09/03/2020 02:24:24
+-------------------------------------------------------------------------------
+
+     US Region Pack (version 1.0.0.2002082608)
+     --------------
+
+     ** initInstall: 0
+     ** fProgram: C:\Program Files (x86)\mozilla.org\Mozilla\
+     ** addDirectory() returned: 0
+     ** fTarget: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\
+     ** addDirectory() returned: 0
+     ** fTarget: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\
+     ** addDirectory() returned: 0
+     [1/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\chrome\US.jar
+     [2/28]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\US
+     [3/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\US\search.rdf
+     [4/28]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\US\chrome
+     [5/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\US\chrome\userContent-example.css
+     [6/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\US\panels.rdf
+     [7/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\US\localstore.rdf
+     [8/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\US\chrome\userChrome-example.css
+     [9/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\US\mimeTypes.rdf
+     [10/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\defaults\profile\US\bookmarks.html
+     [11/28]	Create Folder: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins
+     [12/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\bugzilla.gif
+     [13/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\NetscapeSearch.gif
+     [14/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\dmoz.src
+     [15/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\google.src
+     [16/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\lxrmozilla.gif
+     [17/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\mozilla.src
+     [18/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\bugzilla.src
+     [19/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\NetscapeSearch.src
+     [20/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\dmoz.gif
+     [21/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\lxrmozilla.src
+     [22/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\google.gif
+     [23/28]	Installing: C:\Program Files (x86)\mozilla.org\Mozilla\searchplugins\mozilla.gif
+     [24/28]	Register Locale: jar:resource:/chrome/US.jar!/locale/US/global-region/
+     [25/28]	Register Locale: jar:resource:/chrome/US.jar!/locale/US/communicator-region/
+     [26/28]	Register Locale: jar:resource:/chrome/US.jar!/locale/US/editor-region/
+     [27/28]	Register Locale: jar:resource:/chrome/US.jar!/locale/US/messenger-region/
+     [28/28]	Register Locale: jar:resource:/chrome/US.jar!/locale/US/navigator-region/
+     ** performInstall() returned: 0
+
+     Install completed successfully  --  09/03/2020 02:24:24
+
+     ** copy file: C:\WINDOWS\MozillaUninstall.exe to C:\Program Files (x86)\mozilla.org\Mozilla\Uninstall\MozillaUninstall.exe
+     ** create registry key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Mozilla (1.0) []
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Mozilla (1.0) [DisplayName]
+     ** store registry value string: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Mozilla (1.0) [UninstallString]

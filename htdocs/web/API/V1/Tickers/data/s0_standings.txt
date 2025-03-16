@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<serverResponse>
+	<atTrack>true</atTrack>
+	<compressedData></compressedData>
+	<running>true</running>
+	<data>
+		<mod>cup</mod>
+		<sessionNum>3</sessionNum>
+		<session>Race</session>
+		<sessionFlag>yellow</sessionFlag>
+		<sessionState>racing</sessionState>
+		<connectedDrivers>43</connectedDrivers>
+		<track>Bristol</track>
+		<trackLength>857.995</trackLength>
+		<cautionFlags>1</cautionFlags>
+		<cautionLaps>0</cautionLaps>
+		<lapsComplete>4</lapsComplete>
+		<lapsRemaining>121</lapsRemaining>
+		<lapsTotal>125</lapsTotal>
+		<currentTime>6:54</currentTime>
+		<timeRemaining>167:58:30</timeRemaining>
+		<fastestLap>0.000</fastestLap>
+		<fastestDriverName>Rusty Wallace</fastestDriverName>
+		<fastestDriverId>  2</fastestDriverId>
+	</data>
+	<timestamp>1740987413417</timestamp>
+</serverResponse>

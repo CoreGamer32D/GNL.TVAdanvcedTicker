@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<serverResponse>
+	<atTrack>true</atTrack>
+	<compressedData></compressedData>
+	<running>true</running>
+	<data>
+		<mod>cup</mod>
+		<sessionNum>3</sessionNum>
+		<session>Race</session>
+		<sessionFlag>green</sessionFlag>
+		<sessionState>racing</sessionState>
+		<connectedDrivers>41</connectedDrivers>
+		<track>Daytona</track>
+		<trackLength>4024.385</trackLength>
+		<cautionFlags>0</cautionFlags>
+		<cautionLaps>0</cautionLaps>
+		<lapsComplete>2</lapsComplete>
+		<lapsRemaining>18</lapsRemaining>
+		<lapsTotal>20</lapsTotal>
+		<currentTime>3:52</currentTime>
+		<timeRemaining>167:57:19</timeRemaining>
+		<fastestLap>0.000</fastestLap>
+		<fastestDriverName>Dale Earnhardt Jr.</fastestDriverName>
+		<fastestDriverId>  8</fastestDriverId>
+	</data>
+	<timestamp>1740805375553</timestamp>
+</serverResponse>

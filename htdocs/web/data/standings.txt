@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<serverResponse>
+	<running>false</running>
+	<timestamp>1741574178383</timestamp>
+</serverResponse>

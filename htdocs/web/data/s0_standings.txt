@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<serverResponse>
+	<atTrack>true</atTrack>
+	<compressedData></compressedData>
+	<running>true</running>
+	<data>
+		<mod>cup</mod>
+		<sessionNum>3</sessionNum>
+		<session>Race</session>
+		<sessionFlag>green</sessionFlag>
+		<sessionState>racing</sessionState>
+		<connectedDrivers>32</connectedDrivers>
+		<track>Daytona 2020 BBMC Day</track>
+		<trackLength>4016.929</trackLength>
+		<cautionFlags>0</cautionFlags>
+		<cautionLaps>0</cautionLaps>
+		<lapsComplete>4</lapsComplete>
+		<lapsRemaining>46</lapsRemaining>
+		<lapsTotal>50</lapsTotal>
+		<currentTime>9:49</currentTime>
+		<timeRemaining>167:56:19</timeRemaining>
+		<fastestLap>0.000</fastestLap>
+		<fastestDriverName>Casey Mears</fastestDriverName>
+		<fastestDriverId> 41</fastestDriverId>
+	</data>
+	<timestamp>1741555035534</timestamp>
+</serverResponse>

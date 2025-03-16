@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+    color: #fff;
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div.serverstatus {
+    font-weight: bold;
+}
+
+div.marqueestandings {
+    display: inline;
+}
+
+div.marqueestandings span.position {
+    display: inline;
+    background-color: yellow;
+    color: #000;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 0px 2px;
+}
+
+div.marqueestandings span.number {
+    margin: 0px 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.marqueestandings span.name {
+    font-weight: bold;
+}
+
+div.marqueestandings span.time {
+    margin: 0px 8px;
+    color: yellow;
+}

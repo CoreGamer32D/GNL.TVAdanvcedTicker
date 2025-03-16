@@ -1,0 +1,85 @@
+Start Log: 9/3/2020 - 2:23:29 AM
+    System Info:
+        OS Type: NT5
+        Major Version: 6
+        Minor Version: 2
+        Build Number: 9200
+        Extra String: 
+        Total Physical Memory: 2097151KB
+        Total Available Physical Memory: 2097151KB
+
+    Product Info:
+        Install mode: Normal
+        Company name: mozilla.org
+        Product name (external): Mozilla
+        Product name (internal): Mozilla
+        Uninstall Filename: MozillaUninstall.exe
+        UserAgent: 1.0 (en)
+        Alternate search path: 
+
+    Components corrupted (startup):
+        none
+
+    Destination Path:
+        Main: C:\Program Files (x86)\mozilla.org\Mozilla
+        SubPath: 
+
+    Setup Type: C&ustom
+
+    Components selected:
+        Mozilla XPCOM
+        Navigator
+        Personal Security Manager
+        mozilla.org Uninstaller
+        Debugger
+        US English profile defaults
+        English (US) language pack
+        US region pack
+
+    Components to download:
+        Mozilla XPCOM found: C:\Users\nesma\AppData\Local\Temp\ns_temp\
+        Navigator found: C:\Users\nesma\AppData\Local\Temp\ns_temp\
+        Personal Security Manager found: C:\Users\nesma\AppData\Local\Temp\ns_temp\
+        mozilla.org Uninstaller found: C:\Users\nesma\AppData\Local\Temp\ns_temp\
+        Debugger found: C:\Users\nesma\AppData\Local\Temp\ns_temp\
+        US English profile defaults found: C:\Users\nesma\AppData\Local\Temp\ns_temp\
+        English (US) language pack found: C:\Users\nesma\AppData\Local\Temp\ns_temp\
+        US region pack found: C:\Users\nesma\AppData\Local\Temp\ns_temp\
+        **
+        ** All components have been found locally.  No components will be downloaded.
+        **
+
+    Disk Space Info:
+             Path: C:\
+         Required: 35708KB
+        Available: 275557668KB
+
+    Download protocol: HTTP
+
+    Download status: ok
+        Mozilla XPCOM: NetRetries:0, CRCRetries:0, NetTimeOuts:0
+        Navigator: NetRetries:0, CRCRetries:0, NetTimeOuts:0
+        Personal Security Manager: NetRetries:0, CRCRetries:0, NetTimeOuts:0
+        mozilla.org Uninstaller: NetRetries:0, CRCRetries:0, NetTimeOuts:0
+        Debugger: NetRetries:0, CRCRetries:0, NetTimeOuts:0
+        US English profile defaults: NetRetries:0, CRCRetries:0, NetTimeOuts:0
+        English (US) language pack: NetRetries:0, CRCRetries:0, NetTimeOuts:0
+        US region pack: NetRetries:0, CRCRetries:0, NetTimeOuts:0
+
+    Turbo Mode: false
+
+    Uncompressing Xpcom Succeeded: 0
+
+    XPInstall Start
+        Mozilla XPCOM: 0 OK
+        Navigator: 0 OK
+        Personal Security Manager: 0 OK
+        Debugger: 0 OK
+        US English profile defaults: 0 OK
+        English (US) language pack: 0 OK
+        US region pack: 0 OK
+    XPInstall End
+
+    Launch Apps Start
+    Launch Apps End
+End Log: 9/3/2020 - 2:24:25 AM

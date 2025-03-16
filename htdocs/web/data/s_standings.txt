@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<serverResponse>
+	<atTrack>true</atTrack>
+	<compressedData></compressedData>
+	<running>true</running>
+	<data>
+		<mod>cup</mod>
+		<sessionNum>3</sessionNum>
+		<session>Race</session>
+		<sessionFlag>green</sessionFlag>
+		<sessionState>racing</sessionState>
+		<connectedDrivers>32</connectedDrivers>
+		<track>Daytona 2020 BBMC Day</track>
+		<trackLength>4016.929</trackLength>
+		<cautionFlags>0</cautionFlags>
+		<cautionLaps>0</cautionLaps>
+		<lapsComplete>1</lapsComplete>
+		<lapsRemaining>49</lapsRemaining>
+		<lapsTotal>50</lapsTotal>
+		<currentTime>7:24</currentTime>
+		<timeRemaining>167:58:48</timeRemaining>
+		<fastestLap>0.000</fastestLap>
+		<fastestDriverName>Niall Gallagher</fastestDriverName>
+		<fastestDriverId> 27</fastestDriverId>
+	</data>
+	<timestamp>1741554215244</timestamp>
+</serverResponse>

@@ -1,0 +1,399 @@
+<?xml version="1.0" ?>
+<serverResponse>
+	<atTrack>true</atTrack>
+	<compressedData></compressedData>
+	<running>true</running>
+	<data>
+		<mod>cup</mod>
+		<sessionNum>3</sessionNum>
+		<session>Race</session>
+		<sessionFlag>green</sessionFlag>
+		<sessionState>get in car</sessionState>
+		<connectedDrivers>41</connectedDrivers>
+		<track>Richmond Night</track>
+		<trackLength>1207.793</trackLength>
+		<cautionFlags>0</cautionFlags>
+		<cautionLaps>0</cautionLaps>
+		<lapsComplete>-1</lapsComplete>
+		<lapsRemaining>101</lapsRemaining>
+		<lapsTotal>100</lapsTotal>
+		<currentTime>2:55</currentTime>
+		<timeRemaining>2:04</timeRemaining>
+		<fastestLap>0.000</fastestLap>
+		<fastestDriverName></fastestDriverName>
+		<fastestDriverId></fastestDriverId>
+		<standings>
+			<number> 48</number>
+			<carmake>0</carmake>
+			<name>Jimmie Johnson</name>
+			<time>23.418</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.418</lastlap>
+			<lastpos>-1</lastpos>
+			<started>1</started>
+		</standings>
+		<standings>
+			<number>  8</number>
+			<carmake>0</carmake>
+			<name>Dale Earnhardt Jr.</name>
+			<time>23.524</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.524</lastlap>
+			<lastpos>-1</lastpos>
+			<started>2</started>
+		</standings>
+		<standings>
+			<number> 21</number>
+			<carmake>2</carmake>
+			<name>Ricky Rudd</name>
+			<time>23.598</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.598</lastlap>
+			<lastpos>-1</lastpos>
+			<started>3</started>
+		</standings>
+		<standings>
+			<number> 24</number>
+			<carmake>0</carmake>
+			<name>Jeff Gordon</name>
+			<time>23.667</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.667</lastlap>
+			<lastpos>-1</lastpos>
+			<started>4</started>
+		</standings>
+		<standings>
+			<number> 30</number>
+			<carmake>0</carmake>
+			<name>Jeff Green</name>
+			<time>23.714</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.714</lastlap>
+			<lastpos>-1</lastpos>
+			<started>5</started>
+		</standings>
+		<standings>
+			<number>  1</number>
+			<carmake>0</carmake>
+			<name>Steve Park</name>
+			<time>23.717</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.717</lastlap>
+			<lastpos>-1</lastpos>
+			<started>6</started>
+		</standings>
+		<standings>
+			<number>  2</number>
+			<carmake>1</carmake>
+			<name>Rusty Wallace</name>
+			<time>23.756</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.756</lastlap>
+			<lastpos>-1</lastpos>
+			<started>7</started>
+		</standings>
+		<standings>
+			<number>  9</number>
+			<carmake>1</carmake>
+			<name>Bill Elliott</name>
+			<time>23.796</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.796</lastlap>
+			<lastpos>-1</lastpos>
+			<started>8</started>
+		</standings>
+		<standings>
+			<number> 32</number>
+			<carmake>3</carmake>
+			<name>Ricky Craven</name>
+			<time>23.802</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.802</lastlap>
+			<lastpos>-1</lastpos>
+			<started>9</started>
+		</standings>
+		<standings>
+			<number> 99</number>
+			<carmake>2</carmake>
+			<name>Jeff Burton</name>
+			<time>23.810</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.810</lastlap>
+			<lastpos>-1</lastpos>
+			<started>10</started>
+		</standings>
+		<standings>
+			<number> 43</number>
+			<carmake>1</carmake>
+			<name>John Andretti</name>
+			<time>23.813</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.813</lastlap>
+			<lastpos>-1</lastpos>
+			<started>11</started>
+		</standings>
+		<standings>
+			<number> 12</number>
+			<carmake>1</carmake>
+			<name>Ryan Newman</name>
+			<time>23.816</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.816</lastlap>
+			<lastpos>-1</lastpos>
+			<started>12</started>
+		</standings>
+		<standings>
+			<number> 77</number>
+			<carmake>2</carmake>
+			<name>Dave Blaney</name>
+			<time>23.855</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.855</lastlap>
+			<lastpos>-1</lastpos>
+			<started>13</started>
+		</standings>
+		<standings>
+			<number>  6</number>
+			<carmake>2</carmake>
+			<name>Mark Martin</name>
+			<time>23.856</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.856</lastlap>
+			<lastpos>-1</lastpos>
+			<started>14</started>
+		</standings>
+		<standings>
+			<number> 29</number>
+			<carmake>0</carmake>
+			<name>Kevin Harvick</name>
+			<time>23.867</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.867</lastlap>
+			<lastpos>-1</lastpos>
+			<started>15</started>
+		</standings>
+		<standings>
+			<number> 38</number>
+			<carmake>2</carmake>
+			<name>Elliott Sadler</name>
+			<time>23.885</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.885</lastlap>
+			<lastpos>-1</lastpos>
+			<started>16</started>
+		</standings>
+		<standings>
+			<number>  5</number>
+			<carmake>0</carmake>
+			<name>Terry Labonte</name>
+			<time>23.890</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.890</lastlap>
+			<lastpos>-1</lastpos>
+			<started>17</started>
+		</standings>
+		<standings>
+			<number> 17</number>
+			<carmake>2</carmake>
+			<name>Matt Kenseth</name>
+			<time>23.891</time>
+			<status>retired</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.891</lastlap>
+			<lastpos>-1</lastpos>
+			<started>18</started>
+		</standings>
+		<standings>
+			<number> 16</number>
+			<carmake>2</carmake>
+			<name>Greg Biffle</name>
+			<time>23.914</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.914</lastlap>
+			<lastpos>-1</lastpos>
+			<started>19</started>
+		</standings>
+		<standings>
+			<number> 97</number>
+			<carmake>2</carmake>
+			<name>Kurt Busch</name>
+			<time>23.929</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.929</lastlap>
+			<lastpos>-1</lastpos>
+			<started>20</started>
+		</standings>
+		<standings>
+			<number> 23</number>
+			<carmake>1</carmake>
+			<name>Kenny Wallace</name>
+			<time>23.932</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.932</lastlap>
+			<lastpos>-1</lastpos>
+			<started>21</started>
+		</standings>
+		<standings>
+			<number> 15</number>
+			<carmake>0</carmake>
+			<name>Michael Waltrip</name>
+			<time>23.961</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.961</lastlap>
+			<lastpos>-1</lastpos>
+			<started>22</started>
+		</standings>
+		<standings>
+			<number>  7</number>
+			<carmake>1</carmake>
+			<name>Jimmy Spencer</name>
+			<time>23.979</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.979</lastlap>
+			<lastpos>-1</lastpos>
+			<started>23</started>
+		</standings>
+		<standings>
+			<number> 11</number>
+			<carmake>2</carmake>
+			<name>Brett Bodine</name>
+			<time>23.998</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>23.998</lastlap>
+			<lastpos>-1</lastpos>
+			<started>24</started>
+		</standings>
+		<standings>
+			<number> 18</number>
+			<carmake>0</carmake>
+			<name>Bobby Labonte</name>
+			<time>24.004</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>24.004</lastlap>
+			<lastpos>-1</lastpos>
+			<started>25</started>
+		</standings>
+		<standings>
+			<number> 88</number>
+			<carmake>2</carmake>
+			<name>Dale Jarrett</name>
+			<time>24.056</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>24.056</lastlap>
+			<lastpos>-1</lastpos>
+			<started>26</started>
+		</standings>
+		<standings>
+			<number> 45</number>
+			<carmake>1</carmake>
+			<name>Kyle Petty</name>
+			<time>24.099</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>24.099</lastlap>
+			<lastpos>-1</lastpos>
+			<started>27</started>
+		</standings>
+		<standings>
+			<number> 31</number>
+			<carmake>0</carmake>
+			<name>Robby Gordon</name>
+			<time>24.111</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>24.111</lastlap>
+			<lastpos>-1</lastpos>
+			<started>28</started>
+		</standings>
+		<standings>
+			<number> 67</number>
+			<carmake>2</carmake>
+			<name>Boris Said</name>
+			<time>24.133</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>24.133</lastlap>
+			<lastpos>-1</lastpos>
+			<started>29</started>
+		</standings>
+		<standings>
+			<number> 49</number>
+			<carmake>1</carmake>
+			<name>Ken Schrader</name>
+			<time>24.197</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>24.197</lastlap>
+			<lastpos>-1</lastpos>
+			<started>30</started>
+		</standings>
+		<standings>
+			<number>  0</number>
+			<carmake>3</carmake>
+			<name>Jack Sprague</name>
+			<time>24.209</time>
+			<status>running</status>
+			<lap>2</lap>
+			<pitstops>0</pitstops>
+			<lastlap>24.209</lastlap>
+			<lastpos>-1</lastpos>
+			<started>31</started>
+		</standings>
+	</data>
+	<timestamp>1740889162625</timestamp>
+</serverResponse>
