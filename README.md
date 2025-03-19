@@ -71,5 +71,5 @@ For assistance or to report bugs, please contact me on Discord: `wilhitematthew`
 This project is for personal, non-commercial use only. GNL.TV and NASCAR are registered trademarks of their respective owners.
 
 <div align="center">
-  <img src="/api/placeholder/300/100" alt="NASCAR Racing 2003 Logo" />
+  <img src="https://cdn.discordapp.com/attachments/1161079506220634125/1351908713644036197/NASCAR_Racing_Vert.png?ex=67dc169a&is=67dac51a&hm=5671f0e19685f3f38857f697ebcabfb20b420b797cf75da71e38cbfea9fd70f5&" alt="NASCAR Racing 2003 Logo" />
 </div>
