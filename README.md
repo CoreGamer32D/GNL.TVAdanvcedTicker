@@ -14,7 +14,7 @@
 This custom NASCAR ticker brings the professional GNL.TV broadcast style overlay to your NASCAR Racing 2003 Season game. Experience enhanced immersion with a TV-accurate ticker that displays real-time race information just like modern NASCAR broadcasts.
 
 <div align="center">
-  <img src="https://drive.google.com/file/d/1v_gpd-XS0eEXnbMF-x9fKybcQUrnmQej/view" alt="GNL.TV Ticker Preview" />
+  <img src="https://cdn.discordapp.com/attachments/1161079506220634125/1351907887143977022/Capture.PNG?ex=67dc15d5&is=67dac455&hm=65de978f9bde493f369930d9ac0a11c3b7dcdc535f4d078c85219c73114928c0&" alt="GNL.TV Ticker Preview" />
 </div>
 
 ## Features
