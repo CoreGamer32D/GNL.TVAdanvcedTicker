@@ -27,7 +27,7 @@ function getTickerContent() {
                 
                 $content .= "<div class='standings-entry'>";
                 $content .= "<span class='position'>$position</span>";
-                $content .= "<span class='number'>$number</span>";
+                $content .= "<span class='number'><img src='images/numbers/" . $number . ".png' class='number-image'></span>";
                 $content .= "<span class='name'>$lastName</span>";
                 
                 if ($lapDown) {
@@ -125,6 +125,14 @@ if (isset($_GET['ajax'])) {
             color: yellow;
             font-size: 10px;
         }
+
+        .number-image {
+  width: 20px;
+  height: auto;
+  margin: 0 5px;
+  vertical-align: middle;
+  /* Add any other styling you need */
+}
 
         .name {
             flex: 1;
