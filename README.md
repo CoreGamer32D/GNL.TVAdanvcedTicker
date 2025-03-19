@@ -1,7 +1,7 @@
 # NR2003 NASCAR Ticker (GNL.TV Style)
 
 <div align="center">
-  <img src="/api/placeholder/450/150" alt="GNL.TV NASCAR Ticker Banner" />
+  <img src="https://cdn.discordapp.com/attachments/1161079506220634125/1351908328955187200/top-left.gif?ex=67dc163e&is=67dac4be&hm=fc73386fc7f5437e983e5c33d2c9ef2e8703778890b802cda7c49ec075a5b480&" alt="GNL.TV NASCAR Ticker Banner" />
   <br>
   <img src="https://img.shields.io/badge/Version-1.3.0-blue" alt="Version 1.3.0" />
   <img src="https://img.shields.io/badge/Release-March%2019%2C%202025-green" alt="Release Date" />
