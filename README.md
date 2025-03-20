@@ -1,76 +1,75 @@
 # NR2003 NASCAR Ticker (GNL.TV Style)
 
+<div align="center">
+  <img src="https://cdn.discordapp.com/attachments/1161079506220634125/1351908328955187200/top-left.gif?ex=67dc163e&is=67dac4be&hm=fc73386fc7f5437e983e5c33d2c9ef2e8703778890b802cda7c49ec075a5b480&" alt="GNL.TV NASCAR Ticker Banner" />
+  <br>
+  <img src="https://img.shields.io/badge/Version-1.3.0-blue" alt="Version 1.3.0" />
+  <img src="https://img.shields.io/badge/Release-March%2019%2C%202025-green" alt="Release Date" />
+  <img src="https://img.shields.io/badge/Platform-Windows-orange" alt="Platform" />
+  <img src="https://img.shields.io/badge/Game-NR2003-red" alt="Game" />
+</div>
+
 ## Overview
+
 This custom NASCAR ticker brings the professional GNL.TV broadcast style overlay to your NASCAR Racing 2003 Season game. Experience enhanced immersion with a TV-accurate ticker that displays real-time race information just like modern NASCAR broadcasts.
 
+<div align="center">
+  <img src="https://cdn.discordapp.com/attachments/1161079506220634125/1351907887143977022/Capture.PNG?ex=67dc15d5&is=67dac455&hm=65de978f9bde493f369930d9ac0a11c3b7dcdc535f4d078c85219c73114928c0&" alt="GNL.TV Ticker Preview" />
+</div>
+
 ## Features
-- GNL.TV-inspired design and functionality
-- Real-time position tracking and updates
-- Driver information display (number, name, manufacturer)
-- Interval timing and lap counting
-- Position change indicators
-- Custom color schemes matching GNL.TV broadcasts
-- Compatible with all NR2003 tracks and mods
+
+- 📺 GNL.TV-inspired design and functionality
+- 🏁 Real-time position tracking and updates
+- 🏎️ Driver information display (number, name, manufacturer)
+- ⏱️ Interval timing and lap counting
+- ↕️ Position change indicators
+- 🎨 Custom color schemes matching GNL.TV broadcasts
+- 🔄 Compatible with all NR2003 tracks and mods
 
 ## Download
-You can download the latest version of the GNL.TV Ticker from:
-- **Main Download:** [NR2003Central.com/downloads/gnltv-ticker](https://nr2003central.com/downloads/gnltv-ticker)
-- **Mirror Link:** [SimRacingDesigns.com/resources/nr2003-gnltv-ticker](https://simracingdesigns.com/resources/nr2003-gnltv-ticker)
-- **Discord Server:** Join our community at [discord.gg/nr2003mods](https://discord.gg/nr2003mods) for the latest updates
 
-Current Version: 1.2.0 (Released March 10, 2025)
+You can download the latest version of the GNL.TV Ticker from:
+
+- **Discord Server:** Join our community at [discord.gg/Nn9kgubP](https://discord.gg/Nn9kgubP) for the latest updates
+
+**Current Version:** 1.3.0 (Released March 19, 2025)
 
 ## Installation
+
 1. Download the GNL.TV Ticker package from one of the links above
-2. Extract all files to your NR2003 installation directory
-   - Typically: `C:\Program Files (x86)\Sierra\NASCAR Racing 2003 Season\`
-3. Place the extracted files in the `plugins` folder (create if it doesn't exist)
-4. Backup your original files before installation
+2. Extract all files to your Apache installation directory:
+   - Typically: `C:\Program Files (x86)\Apache Group\Apache\`
+   - Second Run: `C:\Program Files (x86)\Apache Group\Apache\Apache.eve`
+   - Third Run: `C:\Program Files (x86)\Apache Group\Apache\GNLtv.eve`
+3. Start the Apache server using the included batch file or through the Apache service
+4. Launch NR2003 and enable the overlay in the streamlabs and obs studio options
 
-## Configuration
-1. Open `gnltv_ticker_config.ini` with Notepad or any text editor
-2. Configure the following settings:
-   - `position`: Screen position (TOP, BOTTOM)
-   - `opacity`: Transparency level (0-100)
-   - `show_intervals`: Display time/lap intervals (TRUE/FALSE)
-   - `scroll_speed`: How quickly the ticker scrolls (1-10)
-   - `highlight_favorites`: Enable favorite driver highlighting (TRUE/FALSE)
+## Technical Stack
 
-## Usage
-1. Launch NR2003
-2. Start any race session
-3. Press [CTRL+G] to activate the ticker
-4. Additional controls:
-   - [CTRL+P]: Pause/resume ticker scrolling
-   - [CTRL+F]: Toggle through display formats (full field/top 10/battles)
-   - [CTRL+D]: Cycle through different data displays (position/interval/lap time)
-   - [CTRL+X]: Hide/show ticker
-
-## Customizing Driver Information
-Edit the `drivers.ini` file to customize how drivers appear in the ticker
-
-## GNL.TV Color Scheme
-This ticker uses the official GNL.TV color palette:
-- Primary Background: #151515
-- Secondary Background: #222222
-- Highlight Color: #E60000
-- Text Color: #FFFFFF
-- Position Leaders: #FFCC00
-- Caution Indicator: #FFFF00
-
-## Troubleshooting
-- If the ticker doesn't appear, check that all files are in the correct directories
-- For performance issues, try reducing the ticker opacity or update frequency
-- Make sure you're running NR2003 in DirectX 9 mode for best compatibility
-- If ticker text appears misaligned, verify your game resolution settings
-
-## Updates & Changelog
-Check the included `changelog.txt` file for a complete history of updates and fixes.
+<div align="center">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=Apache&logoColor=white" alt="Apache" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+</div>
 
 ## Credits
+
 - Original GNL.TV broadcast design by Graphics News Lab Television
-- Code adaptation for NR2003 by [Your Name]
+- Code adaptation for GNLtv by [CoreGamer32]
 - Special thanks to the NR2003 modding community
 
 ## Support
-For assistance or to report bugs, please contact me at [your contact information]
+
+For assistance or to report bugs, please contact me on Discord: `wilhitematthew`
+
+## License
+
+This project is for personal, non-commercial use only. GNL.TV and NASCAR are registered trademarks of their respective owners.
+
+<div align="center">
+  <img src="https://cdn.discordapp.com/attachments/1161079506220634125/1351908713644036197/NASCAR_Racing_Vert.png?ex=67dc169a&is=67dac51a&hm=5671f0e19685f3f38857f697ebcabfb20b420b797cf75da71e38cbfea9fd70f5&" alt="NASCAR Racing 2003 Logo" />
+</div>
