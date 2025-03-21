@@ -1,33 +1,27 @@
 <?php
 /**
- * GNL.tv - NR2003 Racecast System
- * Copyright (C) 2003-2005 Peter Dikant (peter@dikant.de)
- */
-
-// Get the session parameter (default to 1)
-$tvsession = isset($_GET['gnltvsession']) ? intval($_GET['gnltvsession']) : 1;
-
+* * GNL.tv - NR2003 Racecast System*
+* * Copyright (C) 2003-2005 Peter Dikant (peter@dikant.de)*
+* */
+if (isset($_GET['gnltvsession'])) {
+    $tvsession = $_GET['gnltvsession'];
+} else {
+    $tvsession = 1;
+}
 include("gnltv.inc.php");
-
-// Fetch race data
 $status = getServerStatus();
 $modName = htmlspecialchars(getModName());
 $trackName = htmlspecialchars(getTrackName());
-$sessionName = htmlspecialchars($response["data"]["session"] ?? 'Unknown Session');
+$sessionName = htmlspecialchars($response["data"]["session"]);
 $size = getStandingsNumber();
-
-$standingsData = [];
+$standingsData = array();
 for ($i = 0; $i < $size; $i++) {
     $standings = getStandings($i);
-    $number = htmlspecialchars($standings["number"] ?? '00'); // Default to '00' if number is missing
-    $name = htmlspecialchars($standings["name"] ?? 'Unknown');
-    
-    $standingsData[] = [
+    $standingsData[] = array(
         'position' => $i + 1,
-        'number' => $number,
-        'name' => $name,
-        'image' => "images/numbers/{$number}.png"
-    ];
+        'number' => htmlspecialchars($standings["number"]),
+        'name' => htmlspecialchars($standings["name"]),
+    );
 }
 ?>
 <!DOCTYPE html>
@@ -35,16 +29,17 @@ for ($i = 0; $i < $size; $i++) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qualifying Results</title>
+    <title>RACE LINEUP</title>
     <meta http-equiv="refresh" content="3">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
-    
     <style>
         @font-face {
             font-family: 'StainLess';
             src: url('./fonts/Stainless-Black.otf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
         }
 
         body {
@@ -52,70 +47,91 @@ for ($i = 0; $i < $size; $i++) {
             padding: 0;
             background-color: #000;
             color: #fff;
-            font-family: 'StainLess', sans-serif;
-            text-align: center;
+            font-family: StainLess;
+            overflow: hidden;
         }
-
+        
         .results-container {
             width: 100%;
-            max-width: 1000px;
-            margin: 20px auto;
-            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding-top: 150px; /* Adjust based on your background image */
         }
-
+        
         .results-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 20px;
+            gap: 10px;
+            width: 100%;
         }
-
-        .driver-row {
+        
+        /* Left column layout */
+        .left-driver-row {
+            display: grid;
+            grid-template-columns: 15% 15% 70%;
+            height: 50px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        /* Right column layout - reordered */
+        .right-driver-row {
+            display: grid;
+            grid-template-columns: 15% 70% 15%;
+            height: 50px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .pos-cell {
+            background-color:rgba(128, 128, 128, 0);
+            height: 100%;
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 10px;
-            border-radius: 8px;
+            justify-content: center;
         }
-
-        .position {
-            font-size: 20px;
+        
+        .number-cell {
+            background-color: transparent;
+            color: #fff;
             font-weight: bold;
-            width: 50px;
-            text-align: center;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-
-        .number {
+        
+        .name-cell {
+            background-color:rgba(128, 128, 128, 0);
+            color: #fff;
+            font-weight: bold;
+            text-align: left;
+            padding-left: 20px;
+            height: 100%;
             display: flex;
             align-items: center;
         }
-
-        .number img {
-            height: 40px;
-            width: auto;
-        }
-
-        .name {
-            flex-grow: 1;
-            text-align: left;
-            font-size: 18px;
-        }
-
-        @media (max-width: 768px) {
-            .results-grid {
-                grid-template-columns: 1fr;
-            }
+        
+        /* Right-aligned name for right column */
+        .name-cell-right {
+            background-color:rgba(128, 128, 128, 0);
+            color: #fff;
+            font-weight: bold;
+            text-align: right;
+            padding-right: 20px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
         }
     </style>
 </head>
 <body>
-
     <div class="results-container">
-        <h1><?php echo "$modName - $trackName"; ?></h1>
-        <h3>Session: <?php echo $sessionName; ?></h3>
-
         <?php if ($status != "OK"): ?>
-            <div class="alert alert-danger"><?php echo $status; ?></div>
+            <div style="text-align: center; padding: 20px; color: red;">
+                <?php echo $status; ?>
+            </div>
         <?php else: ?>
             <div class="results-grid">
                 <?php
@@ -123,35 +139,30 @@ for ($i = 0; $i < $size; $i++) {
                 $leftColumn = array_slice($standingsData, 0, $halfSize);
                 $rightColumn = array_slice($standingsData, $halfSize);
                 ?>
-
+                
                 <!-- Left Column -->
-                <div>
+                <div class="column">
                     <?php foreach ($leftColumn as $driver): ?>
-                        <div class="driver-row">
-                            <div class="position"><?php echo $driver['position']; ?></div>
-                            <div class="number">
-                                <img src="<?php echo $driver['image']; ?>" onerror="this.src='images/numbers/default.png';">
-                            </div>
-                            <div class="name"><?php echo $driver['name']; ?></div>
+                        <div class="left-driver-row">
+                            <div class="pos-cell"><?php echo $driver['']; ?></div>
+                            <div class="number-cell"><?php echo $driver['number']; ?></div>
+                            <div class="name-cell"><?php echo $driver['name']; ?></div>
                         </div>
                     <?php endforeach; ?>
                 </div>
-
+                
                 <!-- Right Column -->
-                <div>
+                <div class="column">
                     <?php foreach ($rightColumn as $driver): ?>
-                        <div class="driver-row">
-                            <div class="position"><?php echo $driver['position']; ?></div>
-                            <div class="name"><?php echo $driver['name']; ?></div>
-                            <div class="number">
-                                <img src="<?php echo $driver['image']; ?>" onerror="this.src='images/numbers/default.png';">
-                            </div>
+                        <div class="right-driver-row">
+                            <div class="pos-cell"><?php echo $driver['']; ?></div>
+                            <div class="name-cell-right"><?php echo $driver['name']; ?></div>
+                            <div class="number-cell"><?php echo $driver['number']; ?></div>
                         </div>
                     <?php endforeach; ?>
                 </div>
             </div>
         <?php endif; ?>
     </div>
-
 </body>
 </html>

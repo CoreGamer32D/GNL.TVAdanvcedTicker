@@ -5,23 +5,23 @@
 	<running>true</running>
 	<data>
 		<mod>cup</mod>
-		<sessionNum>3</sessionNum>
-		<session>Race</session>
+		<sessionNum>1</sessionNum>
+		<session>Qualifying</session>
 		<sessionFlag>green</sessionFlag>
-		<sessionState>get in car</sessionState>
-		<connectedDrivers>32</connectedDrivers>
-		<track>Daytona 2020 BBMC Day</track>
-		<trackLength>4016.929</trackLength>
+		<sessionState>racing</sessionState>
+		<connectedDrivers>18</connectedDrivers>
+		<track>Talladega 2015 APT Spring</track>
+		<trackLength>4263.943</trackLength>
 		<cautionFlags>0</cautionFlags>
 		<cautionLaps>0</cautionLaps>
-		<lapsComplete>-1</lapsComplete>
-		<lapsRemaining>51</lapsRemaining>
-		<lapsTotal>50</lapsTotal>
-		<currentTime>1:50</currentTime>
-		<timeRemaining>3:09</timeRemaining>
+		<lapsComplete>0</lapsComplete>
+		<lapsRemaining>3</lapsRemaining>
+		<lapsTotal>-1</lapsTotal>
+		<currentTime>0:20</currentTime>
+		<timeRemaining>3:40</timeRemaining>
 		<fastestLap>0.000</fastestLap>
 		<fastestDriverName></fastestDriverName>
 		<fastestDriverId></fastestDriverId>
 	</data>
-	<timestamp>1741554414289</timestamp>
+	<timestamp>1742509666668</timestamp>
 </serverResponse>

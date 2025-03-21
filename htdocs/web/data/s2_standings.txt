@@ -5,23 +5,215 @@
 	<running>true</running>
 	<data>
 		<mod>cup</mod>
-		<sessionNum>3</sessionNum>
-		<session>Race</session>
+		<sessionNum>1</sessionNum>
+		<session>Qualifying</session>
 		<sessionFlag>green</sessionFlag>
-		<sessionState>get in car</sessionState>
-		<connectedDrivers>32</connectedDrivers>
-		<track>Daytona 2020 BBMC Day</track>
-		<trackLength>4016.929</trackLength>
+		<sessionState>racing</sessionState>
+		<connectedDrivers>18</connectedDrivers>
+		<track>Talladega 2015 APT Spring</track>
+		<trackLength>4263.943</trackLength>
 		<cautionFlags>0</cautionFlags>
 		<cautionLaps>0</cautionLaps>
-		<lapsComplete>-1</lapsComplete>
-		<lapsRemaining>51</lapsRemaining>
-		<lapsTotal>50</lapsTotal>
-		<currentTime>2:00</currentTime>
-		<timeRemaining>2:59</timeRemaining>
-		<fastestLap>0.000</fastestLap>
-		<fastestDriverName></fastestDriverName>
-		<fastestDriverId></fastestDriverId>
+		<lapsComplete>0</lapsComplete>
+		<lapsRemaining>0</lapsRemaining>
+		<lapsTotal>-1</lapsTotal>
+		<currentTime>3:30</currentTime>
+		<timeRemaining>0:29</timeRemaining>
+		<fastestLap>49.017</fastestLap>
+		<fastestDriverName>Noelle Nichols</fastestDriverName>
+		<fastestDriverId> 27</fastestDriverId>
+		<standings>
+			<number> 27</number>
+			<carmake>3</carmake>
+			<name>Noelle Nichols</name>
+			<time>49.017</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>49.017</lastlap>
+			<lastpos>-1</lastpos>
+			<started>1</started>
+		</standings>
+		<standings>
+			<number> 81</number>
+			<carmake>0</carmake>
+			<name>Cam Smith</name>
+			<time>49.246</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>49.246</lastlap>
+			<lastpos>-1</lastpos>
+			<started>2</started>
+		</standings>
+		<standings>
+			<number>  8</number>
+			<carmake>2</carmake>
+			<name>Buddy Campos</name>
+			<time>49.527</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>49.527</lastlap>
+			<lastpos>-1</lastpos>
+			<started>3</started>
+		</standings>
+		<standings>
+			<number> 51</number>
+			<carmake>2</carmake>
+			<name>Dakota Vega</name>
+			<time>49.564</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>49.564</lastlap>
+			<lastpos>-1</lastpos>
+			<started>4</started>
+		</standings>
+		<standings>
+			<number> 25</number>
+			<carmake>2</carmake>
+			<name>Kameryn McElreath</name>
+			<time>49.675</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>49.675</lastlap>
+			<lastpos>-1</lastpos>
+			<started>5</started>
+		</standings>
+		<standings>
+			<number> 41</number>
+			<carmake>2</carmake>
+			<name>Dan Wilkins</name>
+			<time>49.765</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>49.765</lastlap>
+			<lastpos>-1</lastpos>
+			<started>6</started>
+		</standings>
+		<standings>
+			<number>  3</number>
+			<carmake>0</carmake>
+			<name>Winty Woulf</name>
+			<time>49.869</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>49.869</lastlap>
+			<lastpos>-1</lastpos>
+			<started>7</started>
+		</standings>
+		<standings>
+			<number> 44</number>
+			<carmake>2</carmake>
+			<name>Jarrett Gravois</name>
+			<time>49.917</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>49.917</lastlap>
+			<lastpos>-1</lastpos>
+			<started>8</started>
+		</standings>
+		<standings>
+			<number> 92</number>
+			<carmake>3</carmake>
+			<name>Niklas Koskinen</name>
+			<time>50.039</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>50.039</lastlap>
+			<lastpos>-1</lastpos>
+			<started>9</started>
+		</standings>
+		<standings>
+			<number> 33</number>
+			<carmake>0</carmake>
+			<name>Ethan Mingoelli</name>
+			<time>50.221</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>50.221</lastlap>
+			<lastpos>-1</lastpos>
+			<started>10</started>
+		</standings>
+		<standings>
+			<number> 54</number>
+			<carmake>0</carmake>
+			<name>Phil Parker</name>
+			<time>50.328</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>50.328</lastlap>
+			<lastpos>-1</lastpos>
+			<started>11</started>
+		</standings>
+		<standings>
+			<number>  4</number>
+			<carmake>3</carmake>
+			<name>Kyle Watts</name>
+			<time>50.437</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>50.437</lastlap>
+			<lastpos>-1</lastpos>
+			<started>12</started>
+		</standings>
+		<standings>
+			<number> 30</number>
+			<carmake>1</carmake>
+			<name>Nathan Oudthone</name>
+			<time>50.478</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>50.478</lastlap>
+			<lastpos>-1</lastpos>
+			<started>13</started>
+		</standings>
+		<standings>
+			<number> 29</number>
+			<carmake>1</carmake>
+			<name>Kearston Bell</name>
+			<time>50.513</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>50.513</lastlap>
+			<lastpos>-1</lastpos>
+			<started>14</started>
+		</standings>
+		<standings>
+			<number> 88</number>
+			<carmake>0</carmake>
+			<name>Carl Childress</name>
+			<time>50.762</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>50.762</lastlap>
+			<lastpos>-1</lastpos>
+			<started>15</started>
+		</standings>
+		<standings>
+			<number> 45</number>
+			<carmake>1</carmake>
+			<name>Andy Wilhite</name>
+			<time>50.839</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>0</pitstops>
+			<lastlap>50.839</lastlap>
+			<lastpos>-1</lastpos>
+			<started>16</started>
+		</standings>
 	</data>
-	<timestamp>1741554417995</timestamp>
+	<timestamp>1742509702231</timestamp>
 </serverResponse>
