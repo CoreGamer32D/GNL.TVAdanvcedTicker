@@ -1,6 +1,176 @@
 <?xml version="1.0" ?>
 <serverResponse>
-	<atTrack>false</atTrack>
+	<atTrack>true</atTrack>
+	<compressedData></compressedData>
 	<running>true</running>
-	<timestamp>1742517597389</timestamp>
+	<data>
+		<mod>cup</mod>
+		<sessionNum>3</sessionNum>
+		<session>Race</session>
+		<sessionFlag>green</sessionFlag>
+		<sessionState>cool down</sessionState>
+		<connectedDrivers>3</connectedDrivers>
+		<track>Martinsville 2024 Night IFAR</track>
+		<trackLength>846.277</trackLength>
+		<cautionFlags>0</cautionFlags>
+		<cautionLaps>0</cautionLaps>
+		<lapsComplete>125</lapsComplete>
+		<lapsRemaining>0</lapsRemaining>
+		<lapsTotal>125</lapsTotal>
+		<currentTime>2:01:01</currentTime>
+		<timeRemaining>166:45:57</timeRemaining>
+		<fastestLap>20.453</fastestLap>
+		<fastestDriverName>Landon Lyle</fastestDriverName>
+		<fastestDriverId> 81</fastestDriverId>
+		<standings>
+			<number> 24</number>
+			<carmake>2</carmake>
+			<name>Gino Bonnoni</name>
+			<time>0.000</time>
+			<status>running</status>
+			<lap>0</lap>
+			<pitstops>2</pitstops>
+			<lastlap>21.713</lastlap>
+			<lastpos>1</lastpos>
+			<started>-1</started>
+			<leadLaps>6</leadLaps>
+		</standings>
+		<standings>
+			<number> 74</number>
+			<carmake>0</carmake>
+			<name>Dunn LaPradd</name>
+			<time>0.311</time>
+			<status>running</status>
+			<lap>0</lap>
+			<pitstops>2</pitstops>
+			<lastlap>21.701</lastlap>
+			<lastpos>2</lastpos>
+			<started>-1</started>
+			<leadLaps>100</leadLaps>
+		</standings>
+		<standings>
+			<number> 92</number>
+			<carmake>3</carmake>
+			<name>Joshua Clements</name>
+			<time>17.535</time>
+			<status>running</status>
+			<lap>0</lap>
+			<pitstops>2</pitstops>
+			<lastlap>21.555</lastlap>
+			<lastpos>3</lastpos>
+			<started>-1</started>
+			<leadLaps>1</leadLaps>
+		</standings>
+		<standings>
+			<number> 15</number>
+			<carmake>3</carmake>
+			<name>Daniel Rivera</name>
+			<time>17.904</time>
+			<status>running</status>
+			<lap>0</lap>
+			<pitstops>2</pitstops>
+			<lastlap>21.604</lastlap>
+			<lastpos>4</lastpos>
+			<started>-1</started>
+		</standings>
+		<standings>
+			<number> 81</number>
+			<carmake>3</carmake>
+			<name>Landon Lyle</name>
+			<time>28.342</time>
+			<status>running</status>
+			<lap>1</lap>
+			<pitstops>2</pitstops>
+			<lastlap>21.498</lastlap>
+			<lastpos>5</lastpos>
+			<started>-1</started>
+			<leadLaps>16</leadLaps>
+		</standings>
+		<standings>
+			<number> 70</number>
+			<carmake>2</carmake>
+			<name>Garson Mooyoung</name>
+			<time>32.469</time>
+			<status>running</status>
+			<lap>1</lap>
+			<pitstops>2</pitstops>
+			<lastlap>24.670</lastlap>
+			<lastpos>6</lastpos>
+			<started>-1</started>
+		</standings>
+		<standings>
+			<number> 12</number>
+			<carmake>1</carmake>
+			<name>Victor Delgado III</name>
+			<time>36.924</time>
+			<status>running</status>
+			<lap>1</lap>
+			<pitstops>2</pitstops>
+			<lastlap>21.903</lastlap>
+			<lastpos>7</lastpos>
+			<started>-1</started>
+		</standings>
+		<standings>
+			<number> 21</number>
+			<carmake>3</carmake>
+			<name>Kyle Watts</name>
+			<time>65.968</time>
+			<status>running</status>
+			<lap>3</lap>
+			<pitstops>3</pitstops>
+			<lastlap>21.871</lastlap>
+			<lastpos>8</lastpos>
+			<started>-1</started>
+		</standings>
+		<standings>
+			<number> 14</number>
+			<carmake>0</carmake>
+			<name>Talha Aziz</name>
+			<time>26.026</time>
+			<status>accident</status>
+			<lap>4</lap>
+			<pitstops>2</pitstops>
+			<lastlap>22.253</lastlap>
+			<lastpos>9</lastpos>
+			<started>-1</started>
+		</standings>
+		<standings>
+			<number> 51</number>
+			<carmake>3</carmake>
+			<name>Steven Gibson</name>
+			<time>82.976</time>
+			<status>retired</status>
+			<lap>51</lap>
+			<pitstops>2</pitstops>
+			<lastlap>61.018</lastlap>
+			<lastpos>10</lastpos>
+			<started>-1</started>
+			<leadLaps>2</leadLaps>
+		</standings>
+		<standings>
+			<number> 20</number>
+			<carmake>3</carmake>
+			<name>Daniel Rodriguez</name>
+			<time>6.551</time>
+			<status>lost connection</status>
+			<lap>109</lap>
+			<pitstops>0</pitstops>
+			<lastlap>21.202</lastlap>
+			<lastpos>11</lastpos>
+			<started>-1</started>
+		</standings>
+		<standings>
+			<number> 17</number>
+			<carmake>3</carmake>
+			<name>Ruby Estes</name>
+			<time>16.085</time>
+			<status>retired</status>
+			<lap>115</lap>
+			<pitstops>0</pitstops>
+			<lastlap>21.477</lastlap>
+			<lastpos>12</lastpos>
+			<started>-1</started>
+		</standings>
+	</data>
+	<timestamp>1742705143625</timestamp>
 </serverResponse>
